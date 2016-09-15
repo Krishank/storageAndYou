@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html manifest=click2tick.appcache>
+  
+<!-- Mirrored from html5.komplett.cc/code/chap_storage/click2tick.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Aug 2016 11:01:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Click to tick!</title>
+    <!-- $Id: click2tick.html 1280 2011-02-01 14:47:59Z klaus $ -->
+    <link rel="stylesheet" media="all" href="click2tick.css">
+  <script src="click2tick.js"></script>
+  <script src="click2tick_game0001.js"></script>
+  <script src="click2tick_game0002.js"></script>
+  <script src="click2tick_game0003.js"></script>
+  <script src="click2tick_game0004.js"></script>
+<script>
+  window.onload = function() {
+    var game = new click2tick();
+    game.init();
+  };
+</script>
+
+</head>
+<body>
+<hgroup>
+<h1><em>Click to tick!</em> <span id="gameTitle"></span></h1>
+
+  
+</hgroup>
+<div id="map">
+  <fieldset>
+    <legend>Map</legend>
+    <canvas>This game requires a canvas capable browser</canvas>
+  </fieldset>
+  <p id=mapUrl></p>
+</div>
+<div id="controls">
+  <fieldset>
+    <legend>Questions</legend>
+    <p>Choose a game: <select id=selGame name=games></select></p>
+    <ul id="gameResults"></ul>
+    <h3 id="curQuestion"></h3>
+  </fieldset>
+  <fieldset>
+    <legend>Status</legend>
+    <p>You are <span id="onlineStatus" class=online></span></p>
+    <p id="localStorage"></p>
+    <p id="updateButton"><input type=button onclick="location.reload();" value="Check for new games!"></p>
+  </fieldset>
+</div>
+
+ </body>                
+
+<!-- Mirrored from html5.komplett.cc/code/chap_storage/click2tick.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Aug 2016 11:01:57 GMT -->
+</html>                 
+

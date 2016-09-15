@@ -1,0 +1,21 @@
+var setup = { origin:{}, center:{}, locations:[] };
+window.gamedata.push(setup);
+setup.width = "640px";
+setup.height = "480px";
+setup.zoom = 7;
+setup.center.lat = 47;
+setup.center.lng = 11;
+setup.origin.lat = 48.7680303;
+setup.origin.lng = 7.484375;
+
+setup.gid='0002';
+setup.title='Towns in the Alps';
+setup.locations.push(['Where is','Innsbruck',357,214]);
+setup.locations.push(['Where is','Venice',442,455]);
+setup.locations.push(['Where is','Munich',372,89]);
+setup.locations.push(['Where is','Salzburg',506,135]);
+setup.locations.push(['Where is','Bolzano',351,309]);
+setup.locations.push(['Where is','Zurich',96,192]);
+setup.locations.push(['Where is','Augsburg',309,57]);
+setup.locations.push(['Where is','Villach',582,293]);
+setup.locations.push(['Where is','Konstanz',155,155]);

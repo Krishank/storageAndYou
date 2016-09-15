@@ -1,0 +1,4 @@
+http://localhost/storage-and-you/storageExample/final/
+
+http://mdn.github.io/web-storage-demo/
+http://mdn.github.io/web-storage-demo/event.html

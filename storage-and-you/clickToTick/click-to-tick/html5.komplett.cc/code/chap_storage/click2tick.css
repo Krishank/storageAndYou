@@ -1,0 +1,34 @@
+/*****
+*
+* $Id: click2tick.css 1174 2011-01-07 09:31:35Z klaus $
+*
+* Click to tick! CSS-styles
+*
+*****/
+body {
+  font-family: sans-serif;
+}
+legend {
+  font-variant: small-caps;
+}
+#map {
+  float:left;
+}
+#gameResults {
+  list-style: none;
+}
+#mapUrl {
+  font-size: 80%;
+  font-family: monospace;
+}
+#onlineStatus {
+  padding: 4px;
+  color: white;
+}
+.online {
+  background-color: rgba(0,128,0,0.7);
+}
+.offline {
+  background-color: rgba(128,0,0,0.7);
+}
+

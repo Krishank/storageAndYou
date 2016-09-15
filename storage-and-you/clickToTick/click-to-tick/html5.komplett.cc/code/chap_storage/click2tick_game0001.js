@@ -1,0 +1,20 @@
+var setup = { origin:{}, center:{}, locations:[] };
+window.gamedata.push(setup);
+setup.width = "640px";
+setup.height = "480px";
+setup.zoom = 14;
+setup.center.lat = 48.864721;
+setup.center.lng = 2.3105226;
+setup.origin.lat = 48.8782703;
+setup.origin.lng = 2.2830567;
+
+setup.gid='0001';
+setup.title='Downtown Paris';
+setup.locations.push(['Where is the','Arc de Triomphe',140,87]);
+setup.locations.push(['Where is the','Eiffel Tower',133,364]);
+setup.locations.push(['Where is the','Louvre Museum',614,309]);
+setup.locations.push(['Where is the bridge','Pont Royal',548,328]);
+setup.locations.push(['Where is the bridge','Pont de la Concorde',425,266]);
+setup.locations.push(['Where is the','tomb of Napoleon Bonaparte',341,416]);
+setup.locations.push(['Where is the','Parc du Champs de Mars',173,395]);
+setup.locations.push(['Where is the','Métro station Franklin D. Roosevelt',314,165]);
